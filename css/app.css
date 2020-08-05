@@ -7566,6 +7566,7 @@ body {
   margin-bottom: 0;
   color: #dafff3;
   font-family: "Ubuntu", sans-serif;
+  z-index: 100;
 }
 
 .sticky-shrinknav-header {
@@ -7581,6 +7582,7 @@ body {
   left: 0;
   overflow: hidden;
   transition: all 0.5s ease;
+  z-index: 100;
 }
 @media only screen and (max-width: 1920px) {
   .sticky-shrinknav-header {
@@ -7595,6 +7597,7 @@ body {
 
 body.sticky-shrinknav-wrapper {
   padding-top: 130px;
+  z-index: 100;
 }
 body.sticky-shrinknav-wrapper .sticky-shrinknav-header {
   height: 3.75rem;
