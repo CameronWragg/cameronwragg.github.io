@@ -1,0 +1,2 @@
+"use strict";$(document).foundation(),$((function(){$(window).scroll((function(){$(window).scrollTop()>=30?$("body").addClass("sticky-shrinknav-wrapper"):$("body").removeClass("sticky-shrinknav-wrapper")}))}));
+//# sourceMappingURL=app.js.map
